@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Aggiungo informazioni sull'head del sito-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Leonardo Lazzaro Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" 
+    integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/x-icon" href="Assets/Images/favicon.ico">
+    <!--Finite informazioni dell'head del sito-->
+</head>
+
+<body>
+    <!--Definisco le varie sezioni del sito nel body-->
+    <!--Parto con il nav che è dove vado ad inserire il mio logo e un menu che porterà 
+    alle varie altre pagine del mio sito web-->
+    <nav>
+        <!--Inserisco qui il mio logo-->
+        <div class="nav-logo">
+            <a href="#">
+            <img src="Assets/Images/logo.png">
+            </a>
+        </div>
+        <!--Ora vado a creare un menu a tendina che 
+        funziona sia da pc che su smartphone-->
+        <ul class='menu'>
+            <li class='dropdown'><span>Menu &#9662;
+            <ul class='features-menu'>           
+            <li><a href="Cv/index.html" target="_blank">My-Cv</a></li>
+            <li><a href="Portfolio/index.html" target="_blank">My-Works</a></li>
+            <li><a href="Form/index.html" target="_blank">Contact-me</a></li>
+            <li><a href="https://github.com/LeonardoLazzaro" target="_blank">My-Github</a></li>
+            </ul>                               
+            </li>
+        </ul>
+        <!--Finito il nav-->
+    </nav>
+
+    <header class="container">
+        <!--In header vado ad inserire una mia foto e il titolo della pagina-->
+        <div class="content">
+            <!--Inserisco il titolo-->
+            <H1>Leonardo Lazzaro Full Stack Developer</H1>
+            <h2>
+            Benvenuti nel mio sito personale.
+            </h2>
+        </div>
+        <!--Inserisco un'immagine-->
+        <div class="image">
+            <img src="Assets/Images/image_1.png">
+        </div>
+    </header>
+    <!--Procedo con la sezione ovvero la parte che conterrà una mia bio con
+    skills e interessi e le sezioni del sito-->
+    <section class="container">
+        <div class="about">
+        <!--In questa parte vado ad inserire una mia descizione personale-->   
+            <div class="info">
+            <h1>Chi sono</h1>
+            <p>
+            Mi chiamo Leonardo Lazzaro e ho 20 anni. Sono una persona socievole, che impara molto in fretta e a cui 
+            piace scoprire sempre cose nuove. Inoltre, mi piacciono le sfide a il mettersi in gioco ed è per questo che 
+            ho scelto di frequentare il master in Full Stack Development nonostante il mio background sia diverso dal mondo 
+            dell'informatica e della programmazione. Sono bravo e mi piace da sempre il progettare o replicare con qualsiasi
+            materiale dei modellini che siano essi di auto, camion o mezzi agricoli.
+            </div>
+        </div>
+        <!--Inserisco adesso i miei interessi e le mie skills-->
+        <!--Inizio con gli interessi-->  
+        <div class="about interest">
+            <h2 class="title2">interest</h2>
+                <ul>
+                <li><i class="fa fa-car" aria-hidden="true"></i>car</li>
+                <li><i class="fa fa-film" aria-hidden="true"></i></i>film</li>
+                <li><i class="fa fa-gamepad" aria-hidden="true"></i>gaming</li>
+                <li><i class="fa fa-book" aria-hidden="true"></i>comics</li>
+                </ul>
+            </div>
+        <!--Passo adesso alle mie skills-->
+        <div class="about skills">
+        <h2 class="title2">professional skill</h2>
+            <div class="box">
+            <h4>html</h4>
+            <div class="percent">
+            <div style="width: 75%;"></div>
+            </div>
+            </div>
+            <div class="box">
+            <h4>css</h4>
+            <div class="percent">
+            <div style="width: 70%;"></div>
+            </div>
+            </div>
+            <div class="box">
+            <h4>git</h4>
+            <div class="percent">
+            <div style="width: 85%;"></div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+<!--Qui vado ad inserire 4 "bottoni" che contengono una foto di preview che non saranno altro
+che le pagine di cui si compone il sito -->
+   <section class="container">
+        <h2 class="header">Features</h2>
+        <div class="features">
+            <div class="card">
+                <span><i class="ri-money-dollar-box-line"></i></span>
+                <h4>Curriculum</h4>
+                <p>
+                    Da qui si può vedere il mio Curriculum con le mie referenze e esperienze.
+                </p>
+                <a href="Cv/index.html" target="_blank">Clicca qui <i class="ri-arrow-right-line"></i></a>
+            </div>
+            <div class="card_1">
+                <span><i class="ri-bug-line"></i></span>
+                <h4>Portfolio</h4>
+                <p>
+                    Da qui si può vedere la pagina del mio portfolio di progetti con il
+                    collegamento agli stessi.
+                </p>
+                <a href="Portfolio/index.html" target="_blank">Clicca qui <i class="ri-arrow-right-line"></i></a>
+            </div>
+            <div class="card_2">
+                <span><i class="ri-history-line"></i></span>
+                <h4>Contact-me</h4>
+                <p>
+                    Da qui si può accedere a una form funzionante per chi fosse interessato a contattarmi.
+                </p>
+                <a href="Form/index.html" target="_blank">Clicca qui <i class="ri-arrow-right-line"></i></a>
+            </div>
+            <div class="card_3">
+                <span><i class="ri-shake-hands-line"></i></span>
+                <h4>My-Github</h4>
+                <p>
+                    Da qui si può accedere alla pagina web del mio My-Github.
+                </p>
+                <a href="https://github.com/LeonardoLazzaro" target="_blank">Clicca qui <i class="ri-arrow-right-line"></i></a>
+            </div>
+        </div>
+    </section>
+<!--Concludo il mio file html con il footer del mio sito dove sono presenti i collegamenti ai miei social-->
+    <footer class="container">
+        <div class="column">
+            <p>
+                Follow me on
+            </p>
+            <div class="socials">
+                <a href="https://www.youtube.com/channel/UCwZWjDGIJx_IGLNY-37hg-Q" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                <a href="https://www.instagram.com/leonardo.lazzaro03/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></i></a>
+                <a href="https://www.facebook.com/leonardo.lazzaro.1" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

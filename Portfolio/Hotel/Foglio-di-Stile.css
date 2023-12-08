@@ -1,0 +1,48 @@
+/* aggiungo degli stili al corpo del mio file. */
+body{
+    background-image: url(Immagini/wallpaper.jpg);
+    background-repeat: initial;   
+}
+/* Inserisco degli stili alle immagini. */
+img{
+    display: block;
+    margin: auto;
+}
+/* inserisco un una serie di font per tutti i vari titoli dei miei paragrafi. */
+h1{
+    text-align: center;
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-weight: 2em;
+}
+h2,h3,h4{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color:black;
+    font-size: 2em;
+}
+h5{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: black;
+    font-size: 2em;
+}
+/* Aggiugo una serie di stili ai miei paragrafi. */
+p{
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: larger;   
+}
+.synopsis{
+    color:darkgreen;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+
