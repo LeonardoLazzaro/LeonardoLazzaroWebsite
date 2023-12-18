@@ -367,7 +367,7 @@ section .header{
 
 .features .card_3:hover{
     background-color: #323232;
-    border-color:white;
+    border-color:black;
 }
 
 .features .card_3 span{
@@ -455,9 +455,7 @@ footer .column .socials a:hover{
     .features{
         grid-template-columns: repeat(2, 1fr);
     }
-    .pricing{
-        grid-template-columns: repeat(2, 1fr);
-    }
+    
     footer{
         grid-template-columns: 1fr 200px;
     }
@@ -469,10 +467,6 @@ footer .column .socials a:hover{
     }
 
     .features{
-        grid-template-columns: repeat(1, 1fr);
-    }
-
-    .pricing{
         grid-template-columns: repeat(1, 1fr);
     }
 
