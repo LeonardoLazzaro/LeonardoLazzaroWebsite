@@ -1,4 +1,5 @@
-/*Inizio con dare degli stili alla pagina*/
+/*Inizio con dare degli stili alla pagina
+I start by styling the page*/
 *{
     padding: 0;
     margin: 0;
@@ -16,7 +17,8 @@ a{
 body{
     background-image: url(Assets/Images/wallpaper.jpg);
 }
-/*Inizio a dare un qualche stile a nav*/
+/*Inizio a dare un qualche stile a nav
+I'm starting to give some style to nav*/
 nav{
     max-width: 1200px;
     margin: auto;
@@ -70,7 +72,8 @@ a:hover {
 .link a:hover::after{
     width: 70%;
 }
-/*Ora passo a dare qualche stile al menu*/
+/*Ora passo a dare qualche stile al menu
+Now I'm going to give some style to the menu*/
 .menu {
     margin-top: 15px;
     font-size: 20px;
@@ -128,7 +131,8 @@ a:hover {
     flex-direction: column;
     background:lightgrey;
 }
-/*Do lo stile a header*/
+/*Do lo stile a header
+I style header*/
 .container{
     max-width: 1200px;
     margin: auto;
@@ -165,7 +169,8 @@ header .image img{
     max-width: 600px;
     margin: auto;
 }
-/*Do lo stile alla section*/
+/*Do lo stile alla section
+I style the section*/
 section .header{
     margin-bottom: 1rem;
     color: black;
@@ -173,7 +178,8 @@ section .header{
     font-size: 2.25rem;
     font-weight: 600;
 }
-/*Do lo stile alla descizione e al suo titolo*/
+/*Do lo stile alla descizione e al suo titolo
+I give style to the description and its title*/
 .about{
     display:block;
 }
@@ -191,7 +197,8 @@ section .header{
     font-size: 20px;
     line-height: 25px;
 }
-/*Do lo stile ai miei interessi*/
+/*Do lo stile ai miei interessi
+I give style to my interests*/
 .interest ul{
     display: grid;
     grid-template-columns: repeat(4,1fr);
@@ -211,7 +218,8 @@ section .header{
     width: 20px;
     
 }
-/*Qui do lo stile alle mie skills*/
+/*Qui do lo stile alle mie skills
+Here I give style to my skills*/
 .skills .box{
     position: relative;
     width: 100%;
@@ -242,14 +250,16 @@ section .header{
     height: 100%;
     background: gray;
 }
-/*Passo ora a dare lo stile alle mie features*/
+/*Passo ora a dare lo stile alle mie features
+Now I'm going to style my features*/
 .features{
     margin-top: 4rem;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 2rem;
 }
-/*Do lo stile al primo "bottone*/
+/*Do lo stile al primo "bottone
+I give the style to the first "button*/
 .features .card{
     background-image: url(Assets/Images/image_3.png);
     padding: 1rem;
@@ -290,7 +300,7 @@ section .header{
     color: black;
     font-size: 20px;
     transition: all 0.3s ease;
-    background-color: red;
+    background-color: darkgrey;
     padding-left: 3%;
     padding-top: 3%;
     padding-right: 3%;
@@ -301,7 +311,8 @@ section .header{
 .features .card a:hover{
     color: #1e40af;
 }
-/*Do lo stile al secondo "bottone*/
+/*Do lo stile al secondo "bottone
+I give the style to the second "button*/
 .features .card_1{
     background-image: url(Assets/Images/image_2.png);
     padding: 1rem;
@@ -342,7 +353,7 @@ section .header{
     color: black;
     font-size: 20px;
     transition: all 0.3s ease;
-    background-color: red;
+    background-color: darkgrey;
     padding-left: 3%;
     padding-top: 3%;
     padding-right: 3%;
@@ -353,7 +364,8 @@ section .header{
 .features .card_1 a:hover{
     color: #1e40af;
 }
-/*Do lo stile al terzo "bottone*/
+/*Do lo stile al terzo "bottone
+I give the style to the third "button*/
 .features .card_2{
     background-image: url(Assets/Images/Image_4.png);
     padding: 1rem;
@@ -394,7 +406,7 @@ section .header{
     color: black;
     font-size: 20px;
     transition: all 0.3s ease;
-    background-color: red;
+    background-color: darkgrey;
     padding-left: 3%;
     padding-top: 3%;
     padding-right: 3%;
@@ -405,7 +417,8 @@ section .header{
 .features .card_2 a:hover{
     color: #1e40af;
 }
-/*Do lo stile al quarto "bottone*/
+/*Do lo stile al quarto "bottone
+I give the style to the fourth "button*/
 .features .card_3{
     background-image: url(Assets/Images/image_5.png);
     padding: 1rem;
@@ -446,7 +459,7 @@ section .header{
     color: black;
     font-size: 20px;
     transition: all 0.3s ease;
-    background-color: red;
+    background-color: darkgrey;
     padding-left: 3%;
     padding-top: 3%;
     padding-right: 3%;
@@ -458,7 +471,8 @@ section .header{
     color: #1e40af;
 }
 
-/*Do lo stile al footer*/
+/*Do lo stile al footer
+I style the footer*/
 footer{
     position: relative;
     display: block;
@@ -496,7 +510,8 @@ footer .column .socials a:hover{
     background-color:gray;
     border-color: gray;
 }
-/*Rendo tutto il sito responsive*/
+/*Rendo tutto il sito responsive
+I make the entire site responsive*/
 @media (width < 900px){
     .nav-links{
         display: none;
