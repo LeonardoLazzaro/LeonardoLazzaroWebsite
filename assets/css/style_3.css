@@ -15,7 +15,7 @@ a{
     text-decoration: none;
 }
 body{
-    background-image: url(Assets/Images/wallpaper.jpg);
+    background-image: url(../Images/wallpaper.jpg);
 }
 /*Inizio a dare un qualche stile a nav
 I'm starting to give some style to nav*/
@@ -156,11 +156,6 @@ header .content h1{
     line-height: 4rem;
 }
 
-header .content h2{
-    margin-bottom: 2rem;
-    color: gray;
-}
-
 header .image{
     position: relative;
 }
@@ -184,7 +179,7 @@ I give style to the description and its title*/
     display:block;
 }
 
-.about .info h1{
+.about .info h2{
     color: black;
     font-size: 32px;
     text-align: center;
@@ -261,7 +256,7 @@ Now I'm going to style my features*/
 /*Do lo stile al primo "bottone
 I give the style to the first "button*/
 .features .card{
-    background-image: url(Assets/Images/image_3.png);
+    background-image: url(../Images/image_3.png);
     padding: 1rem;
     border: 2px solid transparent;
     border-radius: 15px;
@@ -314,7 +309,7 @@ I give the style to the first "button*/
 /*Do lo stile al secondo "bottone
 I give the style to the second "button*/
 .features .card_1{
-    background-image: url(Assets/Images/image_2.png);
+    background-image: url(../Images/image_2.png);
     padding: 1rem;
     border: 2px solid transparent;
     border-radius: 15px;
@@ -367,7 +362,7 @@ I give the style to the second "button*/
 /*Do lo stile al terzo "bottone
 I give the style to the third "button*/
 .features .card_2{
-    background-image: url(Assets/Images/Image_4.png);
+    background-image: url(../Images/Image_4.png);
     padding: 1rem;
     border: 2px solid transparent;
     border-radius: 15px;
@@ -420,7 +415,7 @@ I give the style to the third "button*/
 /*Do lo stile al quarto "bottone
 I give the style to the fourth "button*/
 .features .card_3{
-    background-image: url(Assets/Images/image_5.png);
+    background-image: url(../Images/image_5.png);
     padding: 1rem;
     border: 2px solid transparent;
     border-radius: 15px;

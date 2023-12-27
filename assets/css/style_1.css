@@ -1,5 +1,5 @@
 * {
-    background-image: url(../assets/images/wallpaper1.jpg);
+    background-image: url(../images/wallpaper1.jpg);
 }
 
 h1 {
@@ -59,4 +59,32 @@ button {
 button:hover {
     opacity: 80%;
     cursor: pointer;
+}
+
+.button_1:link,                 
+.button_1:visited {             
+  display: block;             
+  text-decoration: none;      
+  color:black;                
+  background-color:red;
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 200px;
+  font-size: 20px;
+  margin: 20px auto;
+}
+  
+.button_1:hover,
+.button_1:visited:hover {
+  color: #FFF;
+  background-color:gray; 
+}
+
+.button_1:active,
+.button_1:visited:active {
+  color: #FFF;
+  background-color: #5995DA; 
 }

@@ -24,6 +24,33 @@ body{
     grid-template-columns: 1fr 2fr;
     box-shadow: 0 35px 55px rgba(0,0,0,0.1);
 }
+.button_1:link,                 
+.button_1:visited {             
+  display: block;             
+  text-decoration: none;      
+  color:black;                
+  background-color:lightgrey;
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 200px;
+  margin: 20px auto;
+  font-size: 20px;
+}
+  
+.button_1:hover,
+.button_1:visited:hover {
+  color: #FFF;
+  background-color:gray; 
+}
+
+.button_1:active,
+.button_1:visited:active {
+  color: #FFF;
+  background-color: #5995DA; 
+}
 /*Do degli stili alla parte sinistra del curriculum
 I style the left side of the resume*/
 .container .left-side{
